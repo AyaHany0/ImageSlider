@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <header>
+      <figure class="logo">
+        <img src="./assets/logo.png" alt="" />
+      </figure>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="">Coffee</a></li>
+          <li><a href=""> Menu</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="carousel next">
+        <div class="list">
+          <article class="item past">
+            <div class="main-content" style="background-color: #ecb176">
+              <div class="content">
+                <h2>Dates</h2>
+                <p class="price">20e£</p>
+                <p class="desc">Fresh Milk With Dates</p>
+                <button class="addToCard">Add To Card</button>
+              </div>
+            </div>
+            <figure class="image">
+              <img src="./assets/1.png" alt="" />
+              <figcaption>Dates Milk</figcaption>
+            </figure>
+          </article>
+          <article class="item active">
+            <div class="main-content" style="background-color: #f5bfaf">
+              <div class="content">
+                <h2>Strawberry</h2>
+                <p class="price">20e£</p>
+                <p class="desc">Fresh Milk With Strawberry</p>
+                <button class="addToCard">Add To Card</button>
+              </div>
+            </div>
+            <figure class="image">
+              <img src="./assets/2.png" alt="" />
+              <figcaption>Strawberry Milk</figcaption>
+            </figure>
+          </article>
+          <article class="item later">
+            <div class="main-content" style="background-color: #cc9b6d">
+              <div class="content">
+                <h2>Chocolate</h2>
+                <p class="price">20e£</p>
+                <p class="desc">Fresh Milk With Chocolate</p>
+                <button class="addToCard">Add To Card</button>
+              </div>
+            </div>
+            <figure class="image">
+              <img src="./assets/3.png" alt="" />
+              <figcaption>Chocolate Milk</figcaption>
+            </figure>
+          </article>
+          <article class="item">
+            <div class="main-content" style="background-color: #7eb63d">
+              <div class="content">
+                <h2>Lemon Mint</h2>
+                <p class="price">20e£</p>
+                <p class="desc">Fresh Lemon Mint Juice</p>
+                <button class="addToCard">Add To Card</button>
+              </div>
+            </div>
+            <figure class="image">
+              <img src="./assets/4.png" alt="" />
+              <figcaption>Lemon Mint</figcaption>
+            </figure>
+          </article>
+          <article class="item">
+            <div class="main-content" style="background-color: #c73659">
+              <div class="content">
+                <h2>pomegranate</h2>
+                <p class="price">20e£</p>
+                <p class="desc">Fresh pomegranate Juice</p>
+                <button class="addToCard">Add To Card</button>
+              </div>
+            </div>
+            <figure class="image">
+              <img src="./assets/5.png" alt="" />
+              <figcaption>pomegranate</figcaption>
+            </figure>
+          </article>
+          <article class="item">
+            <div class="main-content" style="background-color: #af8260">
+              <div class="content">
+                <h2>Coffee Shake</h2>
+                <p class="price">20e£</p>
+                <p class="desc">Fresh Milk With Coffee Classic</p>
+                <button class="addToCard">Add To Card</button>
+              </div>
+            </div>
+            <figure class="image">
+              <img src="./assets/6.png" alt="" />
+              <figcaption>Coffee Shake</figcaption>
+            </figure>
+          </article>
+        </div>
+        <div class="arrows">
+          <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="indicators">
+          <div class="dot dot1"></div>
+          <div class="dot dot2 active-dot"></div>
+          <div class="dot dot3"></div>
+          <div class="dot dot4"></div>
+          <div class="dot dot5"></div>
+          <div class="dot dot6"></div>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
