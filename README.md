@@ -19,4 +19,5 @@ This project is a fully customizable image slider that lets you easily change th
 
 ## Project Demo
 
-A demo of the project is available here:
+A demo of the project is available here: https://ayahany0.github.io/ImageSlider/
+
