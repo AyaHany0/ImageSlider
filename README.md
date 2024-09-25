@@ -8,11 +8,12 @@ This project is a fully customizable image slider that lets you easily change th
 
 ## Features:
 
--Customizable Image Count: Adjust the slider to display as many (or as few) images as you like – perfect for any product range.
--Automatic Slideshow: Sit back and watch as the slider automatically transitions through the products.
--Manual Controls: Feeling in control? Use the next and previous buttons to navigate through the slider at your own pace.
--Smooth Transitions: Enjoy seamless transitions that make browsing products a breeze.
--Responsive Design: Works great on mobile, tablet, and desktop screens, so no one misses out on the fun!
+- Customizable Image Count: Adjust the slider to display as many (or as few) images as you like 
+– perfect for any product range.
+- Automatic Slideshow: Sit back and watch as the slider automatically transitions through the products.
+- Manual Controls: Feeling in control? Use the next and previous buttons to navigate through the slider at your own pace.
+- Smooth Transitions: Enjoy seamless transitions that make browsing products a breeze.
+- Responsive Design: Works great on mobile, tablet, and desktop screens, so no one misses out on the fun!
 
 ## Technologies Used:
 
